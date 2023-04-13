@@ -16,5 +16,6 @@ struct SharpinatorApp: App {
         WindowGroup {
             TimerView()
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }

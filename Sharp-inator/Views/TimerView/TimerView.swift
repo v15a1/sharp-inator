@@ -39,10 +39,12 @@ struct TimerView: View {
                 .frame(width: 60)
             }
         }
+        .frame(width:170,
+               height: 160)
         .onAppear {
             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
                 if success {
-                    print("All set!")
+                    return
                 } else if let error = error {
                     print(error.localizedDescription)
                 }

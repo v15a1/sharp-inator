@@ -8,6 +8,11 @@
 import Foundation
 
 enum TimerConsts {
-    static let focusMinutes: Double = 0.1
+    static let focusMinutes: Double = 20
     static let restSeconds: Double = 20
 }
+
+struct Metrics {
+    static let systemPadding: CGFloat = 16
+}
+

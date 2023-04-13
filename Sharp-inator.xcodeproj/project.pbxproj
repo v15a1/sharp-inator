@@ -19,6 +19,7 @@
 		4B044FAA29E5C84E008680DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B044FA929E5C84E008680DA /* Constants.swift */; };
 		4B044FAD29E5C86C008680DA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B044FAC29E5C86C008680DA /* String+Extensions.swift */; };
 		4B044FAF29E5C893008680DA /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B044FAE29E5C893008680DA /* Int+Extensions.swift */; };
+		4BB68DDC29E7D95400963905 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68DDB29E7D95400963905 /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4B044FA929E5C84E008680DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4B044FAC29E5C86C008680DA /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		4B044FAE29E5C893008680DA /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		4BB68DDB29E7D95400963905 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "View+Extensions.swift"; path = "Sharp-inator/Helpers/View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4B044F7F29E5A728008680DA = {
 			isa = PBXGroup;
 			children = (
+				4BB68DDB29E7D95400963905 /* View+Extensions.swift */,
 				4B044F8A29E5A728008680DA /* Sharp-inator */,
 				4B044F8929E5A728008680DA /* Products */,
 			);
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B044FA329E5C652008680DA /* TimerViewModel.swift in Sources */,
+				4BB68DDC29E7D95400963905 /* View+Extensions.swift in Sources */,
 				4B044FAD29E5C86C008680DA /* String+Extensions.swift in Sources */,
 				4B044FA829E5C6CD008680DA /* RoundedButton.swift in Sources */,
 				4B044F9A29E5BBA0008680DA /* AppDelegate.swift in Sources */,
